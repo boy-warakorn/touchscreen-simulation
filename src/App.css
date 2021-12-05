@@ -53,6 +53,12 @@
 .content-container {
   flex: 30;
   background-color: white;
+  height: calc(100vh -64px);
+  overflow-y: scroll;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  padding: 36px;
 }
 
 .simulation-grid {
@@ -65,14 +71,18 @@
 }
 
 .grid-element {
-  border: 0.5px solid black;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
   position: relative;
 }
 .grid-element-bottom {
-  border-top: 0px solid black;
+  border-top: 0px solid black rgba(0, 0, 0, 0.5);
 }
 .grid-element-right {
-  border-left: 0px solid black;
+  border-left: 0px solid black rgba(0, 0, 0, 0.5);
+}
+
+.no-grid {
+  border: 0.5px solid transparent;
 }
 
 .home-button {
@@ -92,7 +102,7 @@
 .circle {
   transition: all 0.5s;
 
-  background-color: transparent;
+  background-color: silver;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -100,8 +110,13 @@
   right: -14px;
   bottom: -14px;
   cursor: pointer;
-  border: 4px solid black;
+  border: 4px solid rgba(0, 0, 0, 0.8);
   /* transform: scale(0); */
+  z-index: 100;
+}
+
+.no-grid .circle {
+  border: 4px solid rgba(0, 0, 0, 0.3);
 }
 
 .big-circle {
@@ -109,13 +124,13 @@
   height: 28px;
   right: -18px;
   bottom: -18px;
-  background-color: blue;
+  background-color: navy;
 }
 
 .medium-circle {
   width: 20px;
   height: 20px;
-  background-color: blue;
+  background-color: navy;
 }
 
 .small-circle {
@@ -123,5 +138,33 @@
   height: 8px;
   right: -6px;
   bottom: -6px;
-  background-color: blue;
+  background-color: navy;
+}
+
+.heading-1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.heading-2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.75;
+}
+
+.heading-3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.75;
+}
+
+.body-1 {
+  font-size: 24px;
+  line-height: 1.75;
+}
+
+.line {
+  border: 1px solid silver;
+  border-bottom: 0px;
 }
