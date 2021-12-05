@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/touchscreen-sim/static/css/main.bb28e864.chunk.css",
+    "main.js": "/touchscreen-sim/static/js/main.ee0ca879.chunk.js",
+    "main.js.map": "/touchscreen-sim/static/js/main.ee0ca879.chunk.js.map",
+    "runtime-main.js": "/touchscreen-sim/static/js/runtime-main.b9cd5e5c.js",
+    "runtime-main.js.map": "/touchscreen-sim/static/js/runtime-main.b9cd5e5c.js.map",
+    "static/js/2.f80ec33d.chunk.js": "/touchscreen-sim/static/js/2.f80ec33d.chunk.js",
+    "static/js/2.f80ec33d.chunk.js.map": "/touchscreen-sim/static/js/2.f80ec33d.chunk.js.map",
+    "static/js/3.62d5d42a.chunk.js": "/touchscreen-sim/static/js/3.62d5d42a.chunk.js",
+    "static/js/3.62d5d42a.chunk.js.map": "/touchscreen-sim/static/js/3.62d5d42a.chunk.js.map",
+    "index.html": "/touchscreen-sim/index.html",
+    "static/css/main.bb28e864.chunk.css.map": "/touchscreen-sim/static/css/main.bb28e864.chunk.css.map",
+    "static/js/2.f80ec33d.chunk.js.LICENSE.txt": "/touchscreen-sim/static/js/2.f80ec33d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9cd5e5c.js",
+    "static/js/2.f80ec33d.chunk.js",
+    "static/css/main.bb28e864.chunk.css",
+    "static/js/main.ee0ca879.chunk.js"
+  ]
+}
