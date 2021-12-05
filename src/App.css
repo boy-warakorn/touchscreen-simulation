@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
   display: flex;
-  flex-direction: column;
+}
+
+.phone-container {
+  flex: 70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 1800px;
+  height: calc(100% - 100px);
+  border-radius: 24px;
+  background-color: white;
+
+  display: flex;
+}
+
+.phone-header {
+  flex: 5;
+  background-color: white;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.phone-content {
+  flex: 80;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.phone-bottom {
+  flex: 5;
+  background-color: white;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.content-container {
+  flex: 30;
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.simulation-grid {
+  height: 100%;
+  background-color: silver;
+
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(24, 1fr);
+}
+
+.grid-element {
+  border: 0.5px solid black;
+  position: relative;
+}
+.grid-element-bottom {
+  border-top: 0px solid black;
+}
+.grid-element-right {
+  border-left: 0px solid black;
+}
+
+.home-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 5px solid #c0c0c0;
+}
+
+.camera {
+  background-color: black;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.circle {
+  transition: all 0.5s;
+
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  right: -14px;
+  bottom: -14px;
+  cursor: pointer;
+  border: 4px solid black;
+  /* transform: scale(0); */
+}
+
+.big-circle {
+  width: 28px;
+  height: 28px;
+  right: -18px;
+  bottom: -18px;
+  background-color: blue;
+}
+
+.medium-circle {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+.small-circle {
+  width: 8px;
+  height: 8px;
+  right: -6px;
+  bottom: -6px;
+  background-color: blue;
 }
