@@ -11,7 +11,7 @@ function App() {
   >([]);
   const [isGridOn, setIsGridOn] = useState<Boolean>(false);
   const [rightMostIndex, setRightMostIndex] = useState<Number[]>([]);
-  const gridSize = 576;
+  const gridSize = 432;
   const leftMostIndex = [
     0, 24, 48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336, 360,
     384, 408, 432, 456, 480, 504, 528,
@@ -26,7 +26,7 @@ function App() {
         var excludeCircle = count + 23;
         tempExclude.push(excludeCircle);
       }
-      if (count >= 552) {
+      if (count >= 408) {
         tempExclude.push(count);
       }
     }
