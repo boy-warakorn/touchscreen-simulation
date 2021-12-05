@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/touchscreen-simulation/static/css/main.bb28e864.chunk.css",
-    "main.js": "/touchscreen-simulation/static/js/main.ee0ca879.chunk.js",
-    "main.js.map": "/touchscreen-simulation/static/js/main.ee0ca879.chunk.js.map",
+    "main.js": "/touchscreen-simulation/static/js/main.01d14f23.chunk.js",
+    "main.js.map": "/touchscreen-simulation/static/js/main.01d14f23.chunk.js.map",
     "runtime-main.js": "/touchscreen-simulation/static/js/runtime-main.b13ed8b3.js",
     "runtime-main.js.map": "/touchscreen-simulation/static/js/runtime-main.b13ed8b3.js.map",
     "static/js/2.f80ec33d.chunk.js": "/touchscreen-simulation/static/js/2.f80ec33d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b13ed8b3.js",
     "static/js/2.f80ec33d.chunk.js",
     "static/css/main.bb28e864.chunk.css",
-    "static/js/main.ee0ca879.chunk.js"
+    "static/js/main.01d14f23.chunk.js"
   ]
 }
